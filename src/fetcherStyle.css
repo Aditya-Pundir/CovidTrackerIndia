@@ -1,0 +1,17 @@
+body {
+  background: rgb(243, 240, 240);
+}
+.card {
+  transition: ease 0.6s;
+  display: block;
+  margin: auto;
+  margin-top: 2rem;
+  width: 90vw;
+  border-radius: 1rem;
+  cursor: pointer;
+  background-color: #123456;
+  color: cyan;
+}
+.card:hover {
+  transform: scale(1.1);
+}
